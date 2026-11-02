@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = r'''<div align="center">
+<div align="center">
 
 # Hi 👋, I'm Deepa Lohakare
 
@@ -51,20 +49,20 @@ My data engineering work focuses on building dependable data flows and making da
 
 ```text
 Data Sources
-     |
-     v
+    |
+    v
 Amazon S3
-     |
-     v
+    |
+    v
 AWS Glue / AWS Lambda
-     |
-     v
+    |
+    v
 Data Transformation & Validation
-     |
-     v
+    |
+    v
 Amazon Athena / Amazon Redshift
-     |
-     v
+    |
+    v
 Power BI / Tableau Dashboards
 ```
 
@@ -117,7 +115,6 @@ I have experience supporting governance and compliance-related activities, inclu
 - Supervised on-site execution against design and safety standards.
 - Maintained inspection logs and quality documentation for audit readiness.
 
-
 ## 🌱 Areas of Interest
 
 - Cloud data engineering and scalable ETL pipelines
@@ -128,10 +125,25 @@ I have experience supporting governance and compliance-related activities, inclu
 
 ## 📫 Connect With Me
 
-- **Email:** [deepalohakare50@gmail.com](mailto:deepalohakare50@gmail.com)
-- **Location:** Bangalore, India
-- **LinkedIn:** Add your LinkedIn profile URL
-- **GitHub:** Add your GitHub profile URL
+<div align="center">
+
+<a href="mailto:deepalohakare50@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Deepa"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+</a>
+&nbsp;
+<a href="https://github.com/your-github-username" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="View GitHub profile"/>
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Location-Bangalore%2C%20India-4285F4?style=flat-square&logo=googlemaps&logoColor=white" alt="Location: Bangalore, India"/>
+
+</div>
 
 ---
 
@@ -140,8 +152,3 @@ I have experience supporting governance and compliance-related activities, inclu
 **Turning data into reliable pipelines, meaningful insights, and better decisions.**
 
 </div>
-'''
-
-path = Path("/mnt/data/README_Deepa_Lohakare.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Created: {path}")
