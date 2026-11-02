@@ -117,10 +117,6 @@ I have experience supporting governance and compliance-related activities, inclu
 - Supervised on-site execution against design and safety standards.
 - Maintained inspection logs and quality documentation for audit readiness.
 
-## 🎓 Education
-
-**Bachelor of Engineering — Information Technology**  
-Nagpur University, 2014
 
 ## 🌱 Areas of Interest
 
